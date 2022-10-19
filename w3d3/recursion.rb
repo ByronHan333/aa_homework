@@ -63,3 +63,10 @@ end
 # p reverse("q") # => "q"
 # p reverse("id") # => "di"
 # p reverse("") # => ""
+
+def pass_hash(hash)
+  return hash
+end
+
+p pass_hash({a:1, b:2})
+p pass_hash(a:1, b:2)
