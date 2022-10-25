@@ -60,8 +60,8 @@ describe Board do
     end
 
     it "distributes the stones from the selected cup" do
-      expect(board.cups[1..4]).to all( eq(five_stone_cup))
-      expect(board.cups[5]).to eq( four_stone_cup )
+      expect(board.cups[1..4]).to all(eq(five_stone_cup))
+      expect(board.cups[5]).to eq(four_stone_cup)
       expect(board.cups[7..12]).to all(eq(four_stone_cup))
     end
 
@@ -89,7 +89,6 @@ describe Board do
 
     context "when the turn ended on an empty cup" do
       it "returns :switch" do
-        puts "here"
         expect(board.make_move(10, "James")).to eq(:switch)
       end
     end
