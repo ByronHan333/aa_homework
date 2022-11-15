@@ -1,0 +1,14 @@
+app/
+bin/
+config/
+db/
+lib/
+log/
+public/
+tmp/
+vendor/
+.ruby-version
+config.ru
+Gemfile
+Gemfile.lock
+Rakefile
