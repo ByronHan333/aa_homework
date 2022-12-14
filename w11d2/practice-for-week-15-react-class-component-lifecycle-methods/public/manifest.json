@@ -1,0 +1,8 @@
+{
+  "short_name": "CC-LifecycleMethods",
+  "name": "Class Components - Lifecycle Methods",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
